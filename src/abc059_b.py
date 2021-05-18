@@ -1,0 +1,12 @@
+A = int(input())
+B = int(input())
+
+ans = ''
+if A > B:
+    ans = "GREATER"
+elif A < B:
+    ans = "LESS"
+else:
+    ans = "EQUAL"
+
+print(ans)

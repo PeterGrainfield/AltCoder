@@ -1,10 +1,9 @@
 N = int(input())
-lh = list(map(int, input().split()))
+S = list(input())
+K = int(input())
 
-ans = 0
-highest = 0
-for h in lh:
-    if h >= highest:
-        ans += 1
-        highest = h
-print(ans)
+keyChar = S[K-1]
+for i in range(N):
+    if S[i] != keyChar:
+        S[i] = "*"
+print("".join(S))

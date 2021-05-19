@@ -1,10 +1,10 @@
-import collections
-N = int(input())
-S = list(map(int, input()))
-T = list(map(int, input()))
+西の塔の高さ　i(i+1) / 2
+東の塔の高さ　i+1(i+2) /2 
+積もった雪の高さをｘとすると
 
-cnt = 0
-for i in range(N):
-    if S[i] != T[i]:
-        cnt += 1
-print(cnt)
+i(i+1)/2 - x = a
+(i+1)(i+2)/2 - x = b
+
+(i(i+1)+(i+1)(i+2))/2 -2x= a+b
+
+

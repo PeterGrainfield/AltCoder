@@ -1,7 +1,5 @@
 /.ipynb_checkpoints
-/.vscode
-/anchoco.txt
-/input.txt
-/main.py
-/script
-/test
+.vscode/
+*.txt
+script/
+test/

@@ -1,5 +1,6 @@
 /.ipynb_checkpoints
 .vscode/
 *.txt
+*.exe
 script/
 test/

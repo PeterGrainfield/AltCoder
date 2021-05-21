@@ -1,8 +1,6 @@
-X, Y = map(int,input().split())
+X, Y = map(int, input().split())
 
-for i in range(1,X*Y+1):
-    if (X*i)%Y:
-        print(X*i)
-        break
-else:
+if Y % X == 0 or Y % X == X:
     print(-1)
+else:
+    print(X)

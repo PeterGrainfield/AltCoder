@@ -2,5 +2,7 @@
 .vscode/
 *.txt
 *.exe
+ahc*
 script/
 test/
+/py/rs

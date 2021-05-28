@@ -1,7 +1,8 @@
-A, B, C, D = map(int, input().split())
+from math import gcd
+N, X = map(int, input().split())
+lx = list(map(int, input().split()))
 
-sa = A - A//C - A//D +
-sb =
-ans = sb - sa
-
+ans = lx[0]-X
+for x in lx:
+    ans = gcd(ans, x-X)
 print(ans)
